@@ -1,12 +1,12 @@
 ---
 title: "gasanalyzer"
 output:
-  pdf_document:
+  rmarkdown::html_vignette:
+    df_print: paged
     fig_caption: yes
   html_document:
     df_print: paged
-  rmarkdown::html_vignette:
-    df_print: paged
+  pdf_document:
     fig_caption: yes
 vignette: >
   %\VignetteIndexEntry{gasanalyzer} 

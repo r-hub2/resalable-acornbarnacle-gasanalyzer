@@ -1,12 +1,12 @@
 ## ----setup, include = FALSE, eval = knitr::is_latex_output()------------------
-knitr::opts_chunk$set(collapse = TRUE, comment = "#>", dev = "cairo_pdf")
-# if you want to build vignettes, set NOT_CRAN to true in your .Renviron!
-NOT_CRAN <- identical(tolower(Sys.getenv("NOT_CRAN")), "true")
-
-## ----setup2, include = FALSE, eval = !knitr::is_latex_output()----------------
-#  knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+#  knitr::opts_chunk$set(collapse = TRUE, comment = "#>", dev = "cairo_pdf")
 #  # if you want to build vignettes, set NOT_CRAN to true in your .Renviron!
 #  NOT_CRAN <- identical(tolower(Sys.getenv("NOT_CRAN")), "true")
+
+## ----setup2, include = FALSE, eval = !knitr::is_latex_output()----------------
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+# if you want to build vignettes, set NOT_CRAN to true in your .Renviron!
+NOT_CRAN <- identical(tolower(Sys.getenv("NOT_CRAN")), "true")
 
 ## ----libs, message = FALSE----------------------------------------------------
 library(gasanalyzer)
