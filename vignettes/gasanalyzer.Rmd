@@ -2,8 +2,6 @@
 title: "gasanalyzer"
 output:
   pdf_document:
-    latex_engine: xelatex
-    extra_dependencies: wasysym
     fig_caption: yes
   html_document:
     df_print: paged
